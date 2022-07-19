@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.container input {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-size: 18px;
+}
+
+.container input:focus {
+    outline: none;
+}
+
+.container button {
+    border-radius: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px 10px;
+}
