@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/rules-of-hooks */
 import Head from 'next/head'
 import { useRouter } from 'next/dist/client/router';
 import styles from '../../styles/countrypage.module.css';
