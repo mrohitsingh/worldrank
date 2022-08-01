@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/rules-of-hooks */
 import Head from 'next/head'
 import { useRouter } from 'next/dist/client/router';
 import styles from '../../styles/countrypage.module.css';
@@ -16,6 +15,7 @@ export const getServerSideProps = async ({params}) => {
 
 const country = (data) => {
 //    console.log(data.data[0]);
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const router = useRouter();
 
 const e = data.data[0];
