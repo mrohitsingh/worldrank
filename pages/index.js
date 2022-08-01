@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import SearchBar from '../components/SearchBar'
 import MyCountries from '../components/MyCountries'
 
 export const getStaticProps = async () => {
@@ -16,15 +15,14 @@ export const getStaticProps = async () => {
 
 
 export default function Home({data}) {
-  // console.log(data)
   return (
     <div>
       <Head>
         <title>World Rank </title>
+        <link rel="icon" href="/earth.svg" />
       </Head>
       <div className={styles.container}>
         <h3 className={styles.header}>World Rank</h3>
-        <SearchBar />
         <MyCountries countries={data} />
       </div>
 
