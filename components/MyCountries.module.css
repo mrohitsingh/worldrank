@@ -167,3 +167,9 @@
     margin: 20px;
     height: auto;
 }
+
+@media screen and (max-width: 450px) {
+    .country_row p {
+        font-size: 12px;
+    }
+}
