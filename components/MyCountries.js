@@ -90,6 +90,7 @@ const MyCountries = ({ countries }) => {
       </div>
       <div className={styles.countriestable_inner}>
         <div className={styles.head}>
+          <button>Id</button>
           <button onClick={() => orderByName(countries)}>
             Name
             {nameFlag == 0 ? (
@@ -132,6 +133,9 @@ const MyCountries = ({ countries }) => {
                       })
                     }
                   >
+                    <div className={styles.country_name}>
+                      <p>{index + 1}</p>
+                    </div>
                     <div className={styles.country_name}>
                       <p>{country.name.common}</p>
                     </div>
