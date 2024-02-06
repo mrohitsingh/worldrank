@@ -3,20 +3,21 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-top: 5px;
 }
 
 .search {
     width: 60%;
     border: 2px solid #cccccc;
     border-radius: 20px;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     display: flex;
     align-items: center;
 }
 
 .icon {
-    margin: 0 10px;
+    margin: 0 5px;
     width: 20px;
     color: #acacac;
 }
@@ -119,13 +120,17 @@
 .countriestable_outer .countriestable_inner .content .country_row div {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 25%;
+    height: 20%;
 }
 
 .countriestable_outer .countriestable_inner .content .country_row .country_name {
     font-weight: 600;
     color: #000000;
+}
+.countriestable_outer .countriestable_inner .content .country_row p {
+    margin: 5px 0 !important;
 }
 
 .countriestable_outer .countriestable_inner .content .country_row .country_flag {
