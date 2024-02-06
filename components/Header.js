@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "react-bootstrap";
-import styles from "./MyCountries.module.css";
+import styles from "../styles/Home.module.css";
 
 const Header = () => {
   return (
@@ -14,7 +14,9 @@ const Header = () => {
               </Button>
             </Link>
           </h1>
-          <h3 className={styles.header}>World Rank</h3>
+          <Link href="/" passHref>
+            <h3 className={styles.header}>World Rank</h3>
+          </Link>
           <div>
             <Link href="https://github.com/mrohitsingh" passHref>
               <Button variant="outline-secondary" className="me-2">

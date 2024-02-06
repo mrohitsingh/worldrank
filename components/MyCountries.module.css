@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    padding-top: 5px;
+    /* padding-top: 5px; */
 }
 
 .search {
@@ -11,7 +11,7 @@
     border: 2px solid #cccccc;
     border-radius: 20px;
     margin: 5px;
-    padding: 5px;
+    /* padding: 5px; */
     display: flex;
     align-items: center;
 }
@@ -57,7 +57,9 @@
     flex-direction: column;
     border: 1px solid #0AD6A0;
     border-radius: 20px;
-    overflow: hidden;
+    overflow-x: hidden;
+    max-height: 450px;
+    overflow-y: scroll;
     margin: 20px;
 }
 
@@ -65,6 +67,11 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    text-align: center;
+    border-radius: 20px;
+    position: fixed;
+    width: 95%;
+    margin-left: 5px;
     padding: 10px;
     background-color: #0AD6A0;
     color: #fff;
@@ -102,7 +109,8 @@
     flex-direction: column;
     align-items: stretch;
     justify-content: space-evenly;
-    padding: 10px;
+    padding: 15px;
+    margin-top: 25px;
 }
 
 .countriestable_outer .countriestable_inner .content .country_row {
